@@ -1,0 +1,10 @@
+db_path: data/observatory.db
+history_days: 240        # сколько дней истории тянуть при первом сборе
+horizon: 7               # на сколько дней вперёд прогнозируем
+seed: 42                 # зерно случайности: фиксируем для повторяемости
+channels: []             
+rss:
+  - https://lenta.ru/rss/news
+  - https://tass.ru/rss/v2.xml
+telegram:
+  session: data/tg
